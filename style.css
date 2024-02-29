@@ -36,7 +36,7 @@ h1 {
     background-color: #D9D9D9;
     padding: 16px 16px 16px 16px;
     width: 231px;
-    height: 75vh;
+    height: 866px;
 }
 
 .dados-pessoais-imagem {
@@ -76,6 +76,7 @@ h1 {
 
 .site {
     display: flex;
+    padding-bottom: 32px;
 }
 
 .apresentacao {
@@ -100,7 +101,7 @@ h1 {
 
 .apresentacao-conteudo {
     padding: 20px 0 0 0;
-    font-size: 1.125rem;
+    font-size: 20px;
 }
 
 .Competências {
@@ -116,6 +117,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
+    gap: 15px;
 }
 
 .projetos a {
