@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+}
+
+.margem {
+    background-color: #150a2e;
+    padding: 12px;
+    height: 30px;
+}
+
+.titulo {
+    padding: 40px 0 0 58px;
+    color: #150a2e;
+    border-bottom: 0.4px solid #000;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.titulo-paragrafo {
+    font-size: 0.75rem;
+}
+
+.sidebar {
+    padding: 105px 42px 75px 58px;
+    width: 262px;
+}
+
+.sidebar-dados-pessoais {
+    background-color: #D9D9D9;
+    padding: 16px 16px 16px 16px;
+    width: 231px;
+    height: 75vh;
+}
+
+.dados-pessoais-imagem {
+    height: 231px;
+    width: 231px;
+}
+
+.dados-pessoais-titulo {
+    color: #150a2e;
+    padding: 11px 0 4px 0;
+}
+
+.dados-pessoais {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.4px solid #000;
+    padding: 11px 0;
+}
+
+.dados-pessoais-conteudo {
+    padding: 0 0 12px 0;
+    font-size: 18px;
+}
+
+.dados-pessoais-titulos {
+    padding: 0 0 4px 0;
+    font-size: 20px;
+}
+
+.link {
+    color: #000;
+}
+
+.link:hover {
+    color: blue;
+}
+
+.site {
+    display: flex;
+}
+
+.apresentacao {
+     margin-right: 50px;
+}
+
+.apresentacao-titulos-perfil {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #150a2e;
+    border-bottom: 0.4px solid #000;
+    padding: 95px 0 5px 0;
+}
+
+.apresentacao-titulos {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #150a2e;
+    border-bottom: 0.4px solid #000;
+    padding: 15px 0 5px 0 ;
+}
+
+.apresentacao-conteudo {
+    padding: 20px 0 0 0;
+    font-size: 1.125rem;
+}
+
+.Competências {
+    display: flex;
+    flex-direction: column;
+    list-style: inside;
+    padding-bottom: 50px;
+    gap: 15px;
+    font-size: 24px;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.projetos a {
+    color: #3b414a;
+    font-size: 24px;
+}
+
+.projetos a:hover {
+    color: blue;
+}
+
+@media (max-width: 804px) {
+    .margem {
+        text-align: center;
+    }
+
+    .titulo {
+        padding: 40px 0 0 0;
+        text-align: center;
+        color: #150a2e;
+    }
+
+    .site {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        padding: 0%;
+        margin-top: 105px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .apresentacao {
+        padding: 20px 0 20px 58px;
+    }
+
+    .apresentacao-titulos-perfil {
+        padding: 50px 0 0 0;
+    }
+
+    .projetos-container{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
