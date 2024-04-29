@@ -76,7 +76,6 @@ h1 {
 
 .site {
     display: flex;
-    padding-bottom: 32px;
 }
 
 .apresentacao {
@@ -106,11 +105,16 @@ h1 {
 
 .Competências {
     display: flex;
-    flex-direction: column;
     list-style: inside;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 80px;
     padding-bottom: 50px;
-    gap: 15px;
     font-size: 24px;
+}
+
+.Competências li{
+    width: 355px;
 }
 
 .projetos-container {
